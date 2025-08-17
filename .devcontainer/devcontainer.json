@@ -24,7 +24,7 @@
 	// so you may want to exclude it, and define it in the devcontainer.json for 
 	// the devcontainer you are using.
 	
-	"postCreateCommand": "pip3 install --user -r requirements.txt",
+	"postCreateCommand": "pip3 install --no-user -r requirements.txt",
 
 	"customizations": {
 	    "codespaces": {
